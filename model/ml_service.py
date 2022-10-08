@@ -43,16 +43,7 @@ def predict(image_name):
     x_batch = preprocess_input(x_batch)
     predictions = model.predict(x_batch)
     pred = decode_predictions(predictions, top=1)
-    # print(" x ")
-    # print(x)
-    # print(" x_batch ")
-    # print(x_batch)
-    # print(" predictions ")
-    # print(predictions)
-    # print(" pred ")
-    # print(pred)
-
-
+    
     class_name = pred[0][0][1]
     pred_probability = round(pred[0][0][2], 4)
 
