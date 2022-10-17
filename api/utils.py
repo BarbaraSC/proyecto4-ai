@@ -49,9 +49,7 @@ def get_file_hash(file):
     # TODO   
 
     extension = os.path.splitext(file.filename)[1]
-    # Create the hashed name
     hashed_name = hashlib.md5(file.stream.read())
-    # Recover readability of file by pointing to first character
     file.stream.seek(0)
 
     return hashed_name.hexdigest() + extension

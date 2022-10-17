@@ -65,7 +65,7 @@ For this task, you must complete the file `locustfile.py` from `stress_test` fol
 
 ### Test scaled services
 
-You can easily launch more instances for a particular service using `--scale SERVICE=NUM` when running `docker-compose up` command (see [here](https://docs.docker.com/compose/reference/up/)). Scale `model` service to 2 or even more instances and check the performance with locust.
+You can easily launch more instances for a particular service using `--scale SERVICE=NUM` when running `docker-compose up` command (see [here](c). Scale `model` service to 2 or even more instances and check the performance with locust.
 
 Write a short report detailing the hardware specs from the server used to run the service and show a comparison in the results obtained for different number of users being simulated and instances deployed.
 
