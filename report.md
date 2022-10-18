@@ -3,7 +3,7 @@
 ## System information
 CPU 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz   2995 MGHz
 RAM 20.0 GB
-OS Windows 10 x64
+Windows 10 x64
 
 ## Locust test
 ### Ramping to 100 users at a rate of 2.00 per second
